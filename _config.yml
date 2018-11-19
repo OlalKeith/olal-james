@@ -1,9 +1,9 @@
 # Site settings
 name: James Keneth Olal
 email: jkeneth.jk@gmail.com
-#canonical_url: https://edwinexemplar.com
-keywords: "Software Engineer, Python, Ruby, Machine Learning, Deep Learning, Startups, Agile, Pair Programming"
-skills: "Senior Software Engineer in Seattle, WA (Fictitious)"
+canonical_url: https://OlalJames.com
+keywords: "Software Developer, Python, Android Developer, heroku"
+skills: "Software Developer, in Nairobi, Kenya"
 baseurl:
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
@@ -11,10 +11,10 @@ baseurl:
 social:
   - title: linkedin
     url: https://www.linkedin.com/in/james-olal/
-  # - title: medium
-  #   url: https://medium.com/@cgroom
-  # - title: twitter
-  #   url: https://twitter.com/chuck_groom
+  - title: medium
+    url: https://medium.com/@OlalJames
+  - title: github
+    https://github.com/OlalKeith
     
 # Google webmaster tools
 google_verify:
