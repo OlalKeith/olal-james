@@ -83,4 +83,86 @@ const observer = new IntersectionObserver((entries) => {
 });
 
 const hiddenElements = document.querySelectorAll('.section__title, .about__bio, .tech-stack, .project__card, .contact__text, .contact__socials');
-hiddenElements.forEach((el) => observer.observe(el)); 
+hiddenElements.forEach((el) => observer.observe(el));
+
+document.addEventListener('DOMContentLoaded', () => {
+
+  // --- Helper Function ---
+  function getAll(selector) {
+    return Array.prototype.slice.call(document.querySelectorAll(selector), 0);
+  }
+
+  // --- Modals ---
+  const rootEl = document.documentElement;
+  const allModals = getAll('.modal');
+  const modalButtons = getAll('.modal-trigger');
+  const modalCloses = getAll('.modal-background, .modal-close, .modal-card-head .delete, .modal-card-foot .button');
+
+  if (modalButtons.length > 0) {
+    modalButtons.forEach(el => {
+      el.addEventListener('click', () => {
+        const targetId = el.dataset.target;
+        if (targetId) {
+          const target = document.getElementById(targetId);
+          if (target) {
+            rootEl.classList.add('is-clipped');
+            target.classList.add('is-active');
+          }
+        }
+      });
+    });
+  }
+
+  if (modalCloses.length > 0) {
+    modalCloses.forEach(el => {
+      el.addEventListener('click', () => {
+        closeModals();
+      });
+    });
+  }
+
+  document.addEventListener('keydown', event => {
+    if (event.key === "Escape") {
+      closeModals();
+    }
+  });
+
+  function closeModals() {
+    rootEl.classList.remove('is-clipped');
+    allModals.forEach(el => {
+      el.classList.remove('is-active');
+    });
+  }
+
+  // --- Carousels ---
+  const carousels = getAll('.carousel');
+  if (typeof Flickity !== 'undefined') {
+    carousels.forEach(carousel => {
+      new Flickity(carousel, {
+        imagesLoaded: true,
+        percentPosition: false,
+        wrapAround: true,
+        pageDots: false,
+      });
+    });
+  }
+
+  // --- Show More/Less Projects ---
+  const showMoreBtn = document.getElementById('show-more-btn');
+  if (showMoreBtn) {
+    const hiddenProjects = getAll('.project-card.is-hidden');
+
+    showMoreBtn.addEventListener('click', () => {
+      hiddenProjects.forEach(project => {
+        project.classList.toggle('is-hidden');
+      });
+
+      if (showMoreBtn.textContent.trim() === 'Show More') {
+        showMoreBtn.textContent = 'Show Less';
+      } else {
+        showMoreBtn.textContent = 'Show More';
+      }
+    });
+  }
+
+}); 

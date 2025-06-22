@@ -1,0 +1,301 @@
+/* Modern Sections Styling - About Me, Experience, Education */
+
+/* Consistent Color Palette */
+:root {
+  --primary-text: #4a4a4a;
+  --secondary-text: #7a7a7a;
+  --title-text: #363636;
+  --accent-color: #3273dc; /* Bulma's primary blue */
+  --card-bg: #ffffff;
+  --card-border: #dbdbdb;
+  --section-bg: #f5f5f5;
+  --divider-color: #e0e0e0;
+}
+
+/* About Me Section */
+.about-section {
+  background-color: var(--section-bg);
+  padding: 3rem 1.5rem;
+}
+
+.about-content {
+  background-color: var(--card-bg);
+  border-radius: 6px;
+  padding: 2rem;
+  box-shadow: 0 2px 3px rgba(10, 10, 10, 0.1), 0 0 0 1px rgba(10, 10, 10, 0.1);
+  border-top: 4px solid;
+  /* border-image: linear-gradient(to right, #3273dc, #6a9de9, #a1c9f7) 1; */
+}
+
+.about-title {
+  font-size: 2rem;
+  font-weight: 600;
+  color: var(--title-text);
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.about-text {
+  font-size: 1.1rem;
+  line-height: 1.7;
+  color: var(--primary-text);
+  text-align: center;
+}
+
+/* Experience Section */
+.experience-section {
+  background-color: var(--section-bg);
+  padding: 3rem 1.5rem;
+}
+
+.experience-title {
+  font-size: 2rem;
+  font-weight: 600;
+  color: var(--title-text);
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.experience-divider {
+  background-color: var(--divider-color);
+  height: 2px;
+  border: none;
+  margin: 1.5rem auto;
+  max-width: 100px;
+}
+
+.experience-card {
+  background-color: var(--card-bg);
+  border-radius: 6px;
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 2px 3px rgba(10, 10, 10, 0.1);
+  border: 1px solid var(--card-border);
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.experience-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 15px rgba(10, 10, 10, 0.15);
+}
+
+.experience-header {
+  margin-bottom: 1rem;
+}
+
+.experience-company {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: var(--title-text);
+}
+
+.experience-role {
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: var(--primary-text);
+  margin-bottom: 0.25rem;
+}
+
+.experience-duration {
+  font-size: 0.9rem;
+  color: var(--secondary-text);
+}
+
+.experience-description {
+  color: var(--primary-text);
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
+
+.experience-list {
+  list-style-type: disc;
+  padding-left: 20px;
+  margin: 0;
+}
+
+.experience-list li {
+  margin-bottom: 0.5rem;
+}
+
+.experience-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.experience-tag {
+  background-color: #f5f5f5;
+  color: var(--secondary-text);
+  padding: 0.25rem 0.75rem;
+  border-radius: 4px;
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+
+/* Education Section */
+.education-section {
+  background-color: var(--section-bg);
+  padding: 3rem 1.5rem;
+}
+
+.education-title {
+  font-size: 2rem;
+  font-weight: 600;
+  color: var(--title-text);
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.education-divider {
+  background-color: var(--divider-color);
+  height: 2px;
+  border: none;
+  margin: 1.5rem auto;
+  max-width: 100px;
+}
+
+.education-card {
+  background-color: var(--card-bg);
+  border-radius: 6px;
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 2px 3px rgba(10, 10, 10, 0.1);
+  border: 1px solid var(--card-border);
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.education-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 15px rgba(10, 10, 10, 0.15);
+}
+
+.education-header {
+  margin-bottom: 1rem;
+}
+
+.education-institution {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: var(--title-text);
+}
+
+.education-program {
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: var(--primary-text);
+  margin-bottom: 0.25rem;
+}
+
+.education-duration {
+  font-size: 0.9rem;
+  color: var(--secondary-text);
+}
+
+.education-description {
+  color: var(--primary-text);
+  line-height: 1.6;
+}
+
+.education-list {
+  list-style-type: disc;
+  padding-left: 20px;
+  margin-top: 0.5rem;
+}
+
+.education-list li {
+  margin-bottom: 0.5rem;
+}
+
+/* Contact Section */
+.contact-section {
+  background-color: var(--section-bg);
+  padding: 3rem 1.5rem;
+}
+
+.contact-title {
+  font-size: 2rem;
+  font-weight: 600;
+  color: var(--title-text);
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.contact-divider {
+  background-color: var(--divider-color);
+  height: 2px;
+  border: none;
+  margin: 1.5rem auto 3rem auto;
+  max-width: 100px;
+}
+
+.contact-item {
+  transition: transform 0.3s ease;
+}
+
+.contact-item:hover {
+  transform: translateY(-5px);
+}
+
+.contact-link {
+  color: var(--secondary-text);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+}
+
+.contact-link .icon {
+  color: var(--primary-text);
+  transition: color 0.3s ease;
+}
+
+.contact-link:hover .icon {
+  color: var(--accent-color);
+}
+
+.contact-link .heading {
+  margin-top: 0.5rem;
+  font-size: 1rem;
+  color: var(--primary-text);
+  font-weight: 500;
+}
+
+/* Responsive Design Adjustments */
+@media (max-width: 768px) {
+  .about-section, .experience-section, .education-section, .contact-section {
+    padding: 2rem 1rem;
+  }
+  .about-title, .experience-title, .education-title, .contact-title {
+    font-size: 1.75rem;
+  }
+}
+
+/* Animations */
+.experience-card, .education-card, .about-content {
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeIn-up 0.5s ease-out forwards;
+}
+
+.experience-card:nth-child(odd) {
+  animation-delay: 0.2s;
+}
+
+.experience-card:nth-child(even) {
+  animation-delay: 0.4s;
+}
+
+.education-card {
+  animation-delay: 0.6s;
+}
+
+@keyframes fadeIn-up {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+} 
