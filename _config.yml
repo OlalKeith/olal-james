@@ -19,8 +19,8 @@ tagline: Software Developer in Nairobi
 email: jkeneth.jk@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   James Olal is a Software Developer based in Nairobi, Kenya. Specializing in React, Flutter, and full-stack development.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://www.ianlewis.org" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/olal-james" # the subpath of your site, e.g. /blog
+url: "https://olalkeith.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 timezone: UTC
 
 # Default permalink style
@@ -57,7 +57,7 @@ plainwhite:
     - post
     - post_list
   social_links:
-    bluesky: ianlewis.org
+    bluesky: ""
     keybase: ianlewis
     github: OlalKeith
     linkedin: james-olal
@@ -65,11 +65,11 @@ plainwhite:
 
   navigation:
     - title: About Me
-      url: /
+      url: "{{ site.baseurl }}/"
     - title: Projects
-      url: /projects
+      url: "{{ site.baseurl }}/projects"
     - title: Today I Learned
-      url: /til/
+      url: "{{ site.baseurl }}/til/"
 
   analytics_id: "G-1C2E36DTVT"
 
