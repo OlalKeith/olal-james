@@ -1,0 +1,45 @@
+projects:
+  - image_light: gtmshome.png
+    image_dark: gtmshome.png
+    description: >
+      Airport lounge management system is a comprehensive platform built on OutSystems that manages the operations of airport lounges and concessions.The system streamlines day-to-day management tasks, optimizes resource utilization, and enables airport lounge operators to make informed decisions based on operational data and performance metrics.
+
+      Led the revamp using OutSystems, React, JavaScript, HTML5, and CSS3. Improved UI scalability by 40% and enhanced user analytics accuracy by 30% for over 5 airport lounges.
+
+  - image_light: pyxicarehome.png
+    image_dark: pyxicarehome.png
+    description: >
+      Pyxis Care Management system is a web-based healthcare platform designed as an MVP for nurse portal management. It automates various administrative and operational tasks that nurses traditionally perform manually, such as patient care coordination, documentation, scheduling, and workflow management. 
+
+      Developed a healthcare workflow automation platform using React.js, Ionic framework, TypeScript, and Node.js. Automated workflows and reduced manual processing time by 50%.
+
+  - image_light: atlm.png
+    image_dark: atlm.png
+    description: >
+      **Above The Line Marketing** ([abovethelinemarketing.com](https://abovethelinemarketing.com/))  
+      Developed interactive web applications focused on marketing automation and client engagement. Built with modern frameworks for scalable architecture and marketing tool integrations.
+
+  - image_light: kaito.png
+    image_dark: kaito.png
+    description: >
+      **Kaito School** ([kaitoschool.com](https://www.kaitoschool.com/))  
+      Developed educational institution's digital platform with student management features, course administration, and communication tools to enhance learning experience and streamline school operations.
+
+  - image_light: joshansen.png
+    image_dark: joshansen.png
+    description: >
+      **Jos Hansen Corporate Website** ([joshansen.com](https://www.joshansen.com/))  
+      Built corporate website for Pan-African solutions provider showcasing expertise in healthcare, water engineering, surveying, and construction across multiple African countries.
+
+  - image_light: kvtc.png
+    image_dark: kvtc.png
+    description: >
+      **Koome Vocational Training School** ([kvtc.co.ke](https://kvtc.co.ke/))  
+      Developed digital platform bridging education and industry demands. Features course information, enrollment systems, and showcases vocational training programs for youth empowerment.
+
+  - image_light: imgplaceholder.jpg
+    image_dark: imgplaceholder.jpg
+    description: >
+      AfyaPepe is a mobile app that organizes health information by connecting patients,medical facilities, laboratories, and pharmacies onto one platform.
+
+      I designed and developed mobile app user interfaces for health management platform. Integrates patient data from medical facilities, laboratories, and pharmacies with focus on usability and responsiveness.
