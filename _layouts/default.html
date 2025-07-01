@@ -95,7 +95,7 @@
       </footer>
     </main>
     {% if site.plainwhite.dark_mode %}
-      <script type="text/javascript" src="{{ "/assets/js/darkmode.js" | relative_url }}"></script>
+      <script type="text/javascript" src="{{ site.baseurl }}/assets/js/darkmode.js"></script>
     {% endif %}
 
     {%- if site.plainwhite.analytics_id -%}
@@ -112,8 +112,8 @@
     {%- endif -%}
 
     {% if site.plainwhite.search %}
-      <script src="{{ "/assets/js/simple-jekyll-search.min.js" | relative_url }}"></script>
-      <script src="{{ "/assets/js/search.js" | relative_url }}"></script>
+      <script src="{{ site.baseurl }}/assets/js/simple-jekyll-search.min.js"></script>
+      <script src="{{ site.baseurl }}/assets/js/search.js"></script>
     {% endif %}
   </body>
 </html>
