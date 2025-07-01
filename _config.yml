@@ -21,7 +21,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   James Olal is a Software Developer based in Nairobi, Kenya. Specializing in React, Flutter, and full-stack development.
 baseurl: "/olal-james" # the subpath of your site, e.g. /blog
 url: "https://olalkeith.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-timezone: UTC
+timezone: Africa/Nairobi
 
 # Default permalink style
 permalink: /:categories/:year/:month/:day/:slug
