@@ -57,13 +57,13 @@
 <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/style.css">
 {%- seo -%}
 {%- if page.feeds contains 'en' %}
-  <link rel="alternate" type="application/rss+xml" title="English Blog" href="/en/feed.xml">
+  <link rel="alternate" type="application/rss+xml" title="English Blog" href="{{ site.baseurl }}/en/feed.xml">
 {%- endif %}
 {%- if page.feeds contains 'jp' %}
-  <link rel="alternate" type="application/rss+xml" title="日本語ブログ" href="/jp/feed.xml">
+  <link rel="alternate" type="application/rss+xml" title="日本語ブログ" href="{{ site.baseurl }}/jp/feed.xml">
 {%- endif %}
 {%- if page.feeds contains 'til' %}
-  <link rel="alternate" type="application/rss+xml" title="Today I Learned" href="/til/feed.xml">
+  <link rel="alternate" type="application/rss+xml" title="Today I Learned" href="{{ site.baseurl }}/til/feed.xml">
 {%- endif %}
 {%- if site.plainwhite.dark_mode %}
   <script type="text/javascript" src="{{ site.baseurl }}/assets/js/darkmode.js"></script>
