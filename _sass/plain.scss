@@ -20,11 +20,10 @@
  * ONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
  */
 
-@use "sass:meta";
-@use "ext/fontello";
-@use "ext/fonts_google_com";
-@use "ext/normalize";
-@use "syntax";
+@import "ext/fontello";
+@import "ext/fonts_google_com";
+@import "ext/normalize";
+@import "syntax";
 
 $link-color: #0a59b0;
 
@@ -197,61 +196,61 @@ main {
 
   .content {
     @media screen and (min-width: $mobile-width + 1) {
-      max-width: calc(100% - #{$left-width});
+      max-width: calc(100% - $left-width);
       margin-left: $left-width;
       margin-top: 45px;
       width: 100%;
     }
   }
+}
 
-  .about {
+.about {
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  align-items: center;
+  min-width: $left-width;
+
+  @media screen and (max-width: $mobile-width) {
+    height: auto;
+  }
+
+  @media screen and (min-width: $mobile-width + 1) {
+    position: fixed;
+    max-width: $left-width;
+    margin-top: 45px;
+  }
+
+  h2 {
+    font-size: 22px;
+    margin-top: 25px;
+    margin-bottom: 0;
+    color: #222;
+    font-weight: normal;
+  }
+
+  .tagline {
+    text-align: center;
+    font-size: 22px;
+    margin-top: 0;
+    color: #aaa;
+    white-space: pre-wrap;
+    line-height: normal;
+  }
+
+  img {
+    max-width: calc($left-width - 50px);
+  }
+
+  .about-header {
     display: flex;
-    height: 100vh;
     flex-direction: column;
-    align-items: center;
-    min-width: $left-width;
 
-    @media screen and (max-width: $mobile-width) {
-      height: auto;
-    }
-
-    @media screen and (min-width: $mobile-width + 1) {
-      position: fixed;
-      max-width: $left-width;
-      margin-top: 45px;
-    }
-
-    h2 {
-      font-size: 22px;
-      margin-top: 25px;
-      margin-bottom: 0;
-      color: #222;
-      font-weight: normal;
-    }
-
-    .tagline {
-      text-align: center;
-      font-size: 22px;
-      margin-top: 0;
-      color: #aaa;
-      white-space: pre-wrap;
-      line-height: normal;
-    }
-
-    img {
-      max-width: calc(#{$left-width} - 50px);
-    }
-
-    .about-header {
+    .about-title {
       display: flex;
       flex-direction: column;
-
-      .about-title {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        margin-bottom: 17px;
-      }
+      align-items: center;
+      margin-bottom: 17px;
     }
   }
 }
@@ -411,4 +410,4 @@ footer {
   }
 }
 
-@include meta.load-css("custom");
+@import "custom";
