@@ -13,7 +13,7 @@ layout: default
       <ul class="post-categories">
         {%- for tag in page.tags -%}
           <li>
-            <a href="{{ site.baseurl }}/{{ category }}/tag/{{ tag | url_encode }}/">{{ tag }}</a>
+            <span class="tag">{{ tag }}</span>
           </li>
         {%- endfor -%}
       </ul>
