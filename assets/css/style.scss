@@ -17,16 +17,11 @@
  * limitations under the License.
  */
 
-@use "plain";
+@import "plain";
+@import "toggle";
+@import "dark";
 
-{% if site.plainwhite.search %}
-  @use "search";
-{% endif %}
-
-{%- if site.plainwhite.dark_mode -%}
-  @use "toggle";
-  @use "dark";
-{%- endif -%}
+// Trigger rebuild for GitHub Pages
 
 ul.pager {
     text-align: center;
@@ -34,6 +29,6 @@ ul.pager {
     li {
         list-style: none;
         display: inline-block;
-        padding: 1em;
+        padding: 5em;
     }
 }
