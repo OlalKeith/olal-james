@@ -20,7 +20,7 @@
  * ONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
  */
 
-@use "sass:meta";
+@import "ext/solarized-dark";
 
 .dark {
   background-color: #171717;
@@ -54,8 +54,6 @@
     color: $dark-text-color;
     border-bottom: 1px solid #272727;
   }
-
-  @include meta.load-css("ext/solarized-dark");
 
   .highlight,
   .highlight * {
