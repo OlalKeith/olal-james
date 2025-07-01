@@ -2,6 +2,7 @@
 layout: post
 title: "Learning Summary: Kubernetes and Cloud Native Essentials (LFS250)"
 date: "2025-07-01 00:00:00 +0300"
+categories: [til]
 blog: til
 tags: kubernetes cloud-native containers orchestration
 render_with_liquid: false
