@@ -1,0 +1,414 @@
+/*
+ * Copyright (c) 2019 Samarjeet
+ * Copyright 2025 Ian Lewis
+ *
+ * Permission is hereby granted, free of charge, to any person obtaining a copy of
+ * this software and associated documentation files (the "Software"), to deal in
+ * the Software without restriction, including without limitation the rights to
+ * use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of
+ * the Software, and to permit persons to whom the Software is furnished to do so,
+ * subject to the following conditions:
+ * 
+ * The above copyright notice and this permission notice shall be included in all
+ * copies or substantial portions of the Software.
+ * 
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS
+ * FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR
+ * COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER
+ * IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
+ * ONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+ */
+
+@use "sass:meta";
+@use "ext/fontello";
+@use "ext/fonts_google_com";
+@use "ext/normalize";
+@use "syntax";
+
+$link-color: #0a59b0;
+
+// small-mobile-width is the max width of small mobile devices. Small mobile
+// devices are w <= small-mobile-width.
+$small-mobile-width: 480px;
+
+// mobile-width is the max width of mobile devices. Mobile devices are
+// small-mobile-width < x <= mobile-width.
+$mobile-width: 768px;
+
+// NOTE: "normal" devices are mobile-width < x < big-screen-width
+
+// big-screen-width is the min width of very large screens. Big screens are
+// w <= big-screen-width.
+$big-screen-width: 1600px;
+
+// left-width is the width of the left-side menu.
+$left-width: 280px;
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Raleway, sans-serif;
+  font-size: 16px;
+  line-height: 1.2em;
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+img,
+embed,
+object,
+video {
+  max-width: 100%;
+}
+
+a {
+  color: #000;
+  transition: color 0.3s;
+
+  &:hover {
+    color: $link-color;
+  }
+}
+
+h2 {
+  margin: 0.7em 0;
+
+  @media screen and (max-width: $mobile-width) {
+    margin: 0.3em 0;
+  }
+}
+
+.social {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  a {
+    margin-bottom: 0.5em;
+  }
+
+  li {
+    i {
+      font-size: 34px;
+    }
+  }
+}
+
+.post {
+  font-family: Merriweather, sans-serif;
+  font-weight: 300;
+  color: #222;
+  line-height: 1.9em;
+
+  p {
+    margin-top: 10px;
+  }
+
+  a {
+    color: $link-color;
+    text-decoration: none;
+    transition: border-bottom 0.4s;
+
+    &:hover {
+      border-bottom: 0.5px solid $link-color;
+    }
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: Raleway, sans-serif;
+  }
+}
+
+.navigation {
+  width: 80%;
+
+  ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 0;
+
+    /* Stylelint seems buggy here as `.navigation ul a` is a different
+     * specificity than `.post a` */
+    /* stylelint-disable-next-line no-descending-specificity */
+    a {
+      display: block;
+      font-family: Merriweather, serif;
+      text-align: center;
+      padding: 1rem 0;
+      text-decoration: none;
+      border-bottom: 1px solid #ececec;
+
+      @media screen and (max-width: $mobile-width) {
+        padding: 2rem 0;
+      }
+    }
+
+    li:last-child {
+      a {
+        border-bottom: 0;
+      }
+    }
+  }
+}
+
+main {
+  margin: 0 90px;
+  display: flex;
+  height: 100%;
+
+  img.dark {
+    display: none;
+  }
+
+  @media screen and (min-width: $big-screen-width) {
+    margin: 0 auto;
+    max-width: 1440px;
+  }
+
+  @media screen and (width <= 1280px) {
+    margin: 0 75px;
+  }
+
+  @media screen and (width <= 1024px) {
+    margin: 0 35px;
+  }
+
+  @media screen and (max-width: $mobile-width) {
+    margin: 5vh 40px;
+    flex-direction: column;
+  }
+
+  @media screen and (max-width: $small-mobile-width) {
+    margin: 3vh 20px;
+  }
+
+  .content {
+    @media screen and (min-width: $mobile-width + 1) {
+      max-width: calc(100% - #{$left-width});
+      margin-left: $left-width;
+      margin-top: 45px;
+      width: 100%;
+    }
+  }
+
+  .about {
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    align-items: center;
+    min-width: $left-width;
+
+    @media screen and (max-width: $mobile-width) {
+      height: auto;
+    }
+
+    @media screen and (min-width: $mobile-width + 1) {
+      position: fixed;
+      max-width: $left-width;
+      margin-top: 45px;
+    }
+
+    h2 {
+      font-size: 22px;
+      margin-top: 25px;
+      margin-bottom: 0;
+      color: #222;
+      font-weight: normal;
+    }
+
+    .tagline {
+      text-align: center;
+      font-size: 22px;
+      margin-top: 0;
+      color: #aaa;
+      white-space: pre-wrap;
+      line-height: normal;
+    }
+
+    img {
+      max-width: calc(#{$left-width} - 50px);
+    }
+
+    .about-header {
+      display: flex;
+      flex-direction: column;
+
+      .about-title {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 17px;
+      }
+    }
+  }
+}
+
+#title {
+  a {
+    text-decoration: none;
+  }
+}
+
+.post-wrapper {
+  border-bottom: 1px solid #ececec;
+  margin-bottom: 1rem;
+  padding-bottom: 1rem;
+}
+
+.post-categories {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+
+  li {
+    font-size: 14px;
+    float: left;
+    background-color: #e3e3e3;
+    padding: 5px 20px;
+    border-radius: 2px;
+    margin-right: 10px;
+
+    @media screen and (max-width: $mobile-width) {
+      margin-top: 5px;
+    }
+  }
+}
+
+.post-date {
+  margin-right: 10px;
+  color: #555;
+  min-width: 150px;
+}
+
+.post-meta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 30px;
+
+  @media screen and (max-width: $mobile-width) {
+    flex-direction: column;
+    align-items: baseline;
+
+    .post-date {
+      margin: 10px 0;
+    }
+  }
+}
+
+.post-link {
+  text-decoration: none;
+}
+
+.post-title {
+  line-height: 1.2em;
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.page-heading {
+  line-height: 1.2em;
+}
+
+.posts {
+  list-style-type: none;
+  padding: 0;
+
+  @media screen and (max-width: $mobile-width) {
+    margin-top: 0;
+  }
+}
+
+.posts-labelgroup {
+  margin: 0 0 0.67em;
+  display: flex;
+  align-items: baseline;
+  border-bottom: 1px solid #eee;
+}
+
+#posts-label {
+  font-size: 15px;
+  color: #555;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  padding: 10px 0;
+  font-weight: normal;
+  margin: 0;
+  overflow: hidden;
+  transition: width 0.1s;
+}
+
+table {
+  th,
+  td {
+    padding: 8px 13px;
+    border: 1px solid #dfe2e5;
+  }
+
+  th {
+    background-color: #eee;
+    font-family: Raleway, sans-serif;
+  }
+}
+
+footer {
+  display: none;
+}
+
+@media screen and (max-width: $mobile-width) {
+  .about {
+    .about-header.condensed {
+      align-items: start;
+      align-self: start;
+
+      .about-title {
+        flex-direction: row;
+        margin-bottom: 10px;
+
+        img {
+          max-height: 40px;
+        }
+
+        h2 {
+          margin: 0 10px;
+        }
+      }
+
+      .tagline {
+        font-size: 18px;
+        margin-bottom: 0;
+      }
+    }
+
+    .about-footer.condensed {
+      display: none;
+    }
+  }
+
+  footer.condensed {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    @media screen and (max-width: $small-mobile-width) {
+      margin: 0 20px;
+    }
+
+    border-top: 1px solid #eee;
+  }
+}
+
+@include meta.load-css("custom");

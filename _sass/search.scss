@@ -1,0 +1,147 @@
+/*
+ * Copyright (c) 2019 Samarjeet
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
+/* Post Label And Search */
+
+/* Hack iOS Safari Unfocus */
+main {
+  outline: none;
+  min-height: 100vh; // Click Anywhere to Unfocus
+}
+
+.posts-labelgroup {
+  /* Firefox Flex Hack */
+  @document url-prefix() {
+    align-items: center;
+  }
+
+  .search-section {
+    display: flex;
+    flex-grow: 1;
+    border-top: 1px solid transparent;
+    border-bottom: 1px solid transparent;
+    align-items: center;
+    border-radius: 5px;
+  }
+
+  i {
+    color: #777;
+    flex-grow: 0;
+    padding: 0 8px;
+    transition: color 0.5s;
+    font-size: 15px;
+  }
+
+  input {
+    color: #555;
+    background-color: transparent;
+    font-size: 15px;
+    flex-grow: 1;
+    height: 39px;
+    border: none;
+    padding: 10px 0;
+    outline: none;
+    transition: color 0.5s;
+  }
+
+  .search-results {
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    position: absolute;
+    background-color: #fff;
+    min-width: 160px;
+    width: 100%;
+    min-height: 50px;
+    box-shadow: 0 1px 2px 0 rgb(32 33 36 / 28%);
+    z-index: 3;
+    padding: 10px 0;
+    font-size: 15px;
+    border: 1px solid rgb(223 225 229 / 0%);
+
+    &:empty::before {
+      content: attr(data-placeholder);
+      padding: 8px 25px 8px 14px;
+    }
+
+    a {
+      padding: 8px 25px 8px 14px;
+      text-decoration: none;
+      display: flex;
+      background-color: transparent;
+
+      &:hover {
+        color: black;
+        background-color: #eee;
+      }
+
+      &::before {
+        content: "\e805";
+
+        /* fontello is a custom font that is guaranteed to be available. */
+        /* stylelint-disable-next-line font-family-no-missing-generic-family-keyword */
+        font-family: fontello;
+        font-style: normal;
+        speak: none;
+        display: inline-block;
+        text-decoration: inherit;
+        font-variant: normal;
+        text-transform: none;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        font-feature-settings: "liga";
+        margin-right: 14px;
+        padding: 0 3px;
+        color: #9aa0a6;
+      }
+    }
+  }
+
+  .search-container {
+    display: block;
+    flex-grow: 1;
+    position: relative;
+  }
+
+  &:hover {
+    i {
+      color: $linkColor;
+    }
+  }
+
+  &.focus-within {
+    .search-section {
+      border-bottom-left-radius: 0;
+      border-bottom-right-radius: 0;
+      box-shadow: 0 1px 2px 0 rgb(32 33 36 / 28%);
+      border: 1px solid rgb(223 225 229 / 0%);
+      border-bottom: solid 1px #eee;
+      z-index: 3;
+      margin: 0 auto;
+    }
+
+    input {
+      color: black;
+    }
+
+    i {
+      color: $linkColor;
+      padding: 0 14px;
+    }
+  }
+}
