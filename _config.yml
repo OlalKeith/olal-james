@@ -65,11 +65,11 @@ plainwhite:
 
   navigation:
     - title: About Me
-      url: "{{ site.baseurl }}/"
+      url: /
     - title: Projects
-      url: "{{ site.baseurl }}/projects"
+      url: /projects
     - title: Today I Learned
-      url: "{{ site.baseurl }}/til/"
+      url: /til/
 
   analytics_id: "G-1C2E36DTVT"
 
