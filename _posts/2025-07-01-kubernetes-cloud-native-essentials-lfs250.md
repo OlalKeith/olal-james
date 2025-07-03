@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Learning Summary: Kubernetes and Cloud Native Essentials (LFS250)"
+title: "Kubernetes and Cloud Native Essentials (LFS250)"
 date: "2025-07-01 00:00:00 +0300"
 categories: [til]
 blog: til
