@@ -6,7 +6,6 @@
  *
  * @name jquery-pageslide-0.2.js
  * @author Scott Robbin - http://srobbin.com
- * @author Ian Lewis - http://www.ianlewis.org/
  * @version 0.2
  * @date January 7, 2009
  * @category jQuery plugin
