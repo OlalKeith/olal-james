@@ -1,6 +1,9 @@
 /*
  * Copyright (c) 2019 Samarjeet
+<<<<<<< HEAD
  * Copyright 2025 Ian Lewis
+=======
+>>>>>>> gh-pages
  *
  * Permission is hereby granted, free of charge, to any person obtaining a copy of
  * this software and associated documentation files (the "Software"), to deal in
@@ -17,6 +20,7 @@
  * FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR
  * COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER
  * IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
+<<<<<<< HEAD
  * ONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
  */
 
@@ -25,6 +29,16 @@
 @use "ext/fonts_google_com";
 @use "ext/normalize";
 @use "syntax";
+=======
+ * CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+ */
+
+@import "ext/solarized-light";
+@import "ext/fontello";
+@import "ext/fonts_google_com";
+@import "ext/normalize";
+@import "syntax";
+>>>>>>> gh-pages
 
 $link-color: #0a59b0;
 
@@ -197,12 +211,17 @@ main {
 
   .content {
     @media screen and (min-width: $mobile-width + 1) {
+<<<<<<< HEAD
       max-width: calc(100% - #{$left-width});
+=======
+      max-width: calc(100% - $left-width);
+>>>>>>> gh-pages
       margin-left: $left-width;
       margin-top: 45px;
       width: 100%;
     }
   }
+<<<<<<< HEAD
 
   .about {
     display: flex;
@@ -252,6 +271,57 @@ main {
         align-items: center;
         margin-bottom: 17px;
       }
+=======
+}
+
+.about {
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  align-items: center;
+  min-width: $left-width;
+
+  @media screen and (max-width: $mobile-width) {
+    height: auto;
+  }
+
+  @media screen and (min-width: $mobile-width + 1) {
+    position: fixed;
+    max-width: $left-width;
+    margin-top: 45px;
+  }
+
+  h2 {
+    font-size: 22px;
+    margin-top: 25px;
+    margin-bottom: 0;
+    color: #222;
+    font-weight: normal;
+  }
+
+  .tagline {
+    text-align: center;
+    font-size: 22px;
+    margin-top: 0;
+    color: #aaa;
+    white-space: pre-wrap;
+    line-height: normal;
+  }
+
+  img {
+    max-width: calc($left-width - 50px);
+  }
+
+  .about-header {
+    display: flex;
+    flex-direction: column;
+
+    .about-title {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-bottom: 17px;
+>>>>>>> gh-pages
     }
   }
 }
@@ -411,4 +481,12 @@ footer {
   }
 }
 
+<<<<<<< HEAD
 @include meta.load-css("custom");
+=======
+@import "custom";
+
+.highlight {
+  background-color: #f4f4f4;
+}
+>>>>>>> gh-pages

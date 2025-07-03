@@ -35,7 +35,11 @@ layout: default
             <ul class="post-categories">
               {%- for tag in post.tags -%}
                 <li>
+<<<<<<< HEAD
                   <a href="/{{ post.blog }}/tag/{{ tag }}">{{ tag }}</a>
+=======
+                  <a href="{{ site.baseurl }}/{{ post.blog }}/tag/{{ tag }}">{{ tag }}</a>
+>>>>>>> gh-pages
                 </li>
               {%- endfor -%}
             </ul>

@@ -1,16 +1,5 @@
-# Copyright 2025 Ian Lewis
-#
-# Licensed under the Apache License, Version 2.0 (the "License");
-# you may not use this file except in compliance with the License.
-# You may obtain a copy of the License at
-#
-#      http://www.apache.org/licenses/LICENSE-2.0
-#
-# Unless required by applicable law or agreed to in writing, software
-# distributed under the License is distributed on an "AS IS" BASIS,
-# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-# See the License for the specific language governing permissions and
-# limitations under the License.
+# James Olal Personal Website Configuration
+# https://olalkeith.github.io/olal-james/
 
 # Jekyll site settings
 
@@ -19,9 +8,9 @@ tagline: Software Developer in Nairobi
 email: jkeneth.jk@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   James Olal is a Software Developer based in Nairobi, Kenya. Specializing in React, Flutter, and full-stack development.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://www.ianlewis.org" # the base hostname & protocol for your site, e.g. http://example.com
-timezone: UTC
+baseurl: "/olal-james" # the subpath of your site, e.g. /blog
+url: "https://olalkeith.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+timezone: Africa/Nairobi
 
 # Default permalink style
 permalink: /:categories/:year/:month/:day/:slug
@@ -57,8 +46,7 @@ plainwhite:
     - post
     - post_list
   social_links:
-    bluesky: ianlewis.org
-    keybase: ianlewis
+    bluesky: ""
     github: OlalKeith
     linkedin: james-olal
     email: jkeneth.jk@gmail.com
@@ -71,7 +59,7 @@ plainwhite:
     - title: Today I Learned
       url: /til/
 
-  analytics_id: "G-1C2E36DTVT"
+  analytics_id: "G-XMT4SC8QXQ"
 
 # social config is used in jekyll-seo-tag JSON-LD output.
 social:
@@ -79,7 +67,6 @@ social:
   links:
     - https://github.com/OlalKeith
     - https://www.linkedin.com/in/james-olal/
-
 
 # twitter is used by jekyll-seo-tag
 twitter:

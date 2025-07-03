@@ -1,6 +1,9 @@
 /*
  * Copyright (c) 2019 Samarjeet
+<<<<<<< HEAD
  * Copyright 2025 Ian Lewis
+=======
+>>>>>>> gh-pages
  *
  * Permission is hereby granted, free of charge, to any person obtaining a copy of
  * this software and associated documentation files (the "Software"), to deal in
@@ -20,7 +23,11 @@
  * ONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
  */
 
+<<<<<<< HEAD
 @use "sass:meta";
+=======
+@import "ext/solarized-dark";
+>>>>>>> gh-pages
 
 .dark {
   background-color: #171717;
@@ -55,8 +62,11 @@
     border-bottom: 1px solid #272727;
   }
 
+<<<<<<< HEAD
   @include meta.load-css("ext/solarized-dark");
 
+=======
+>>>>>>> gh-pages
   .highlight,
   .highlight * {
     background-color: #00080a;

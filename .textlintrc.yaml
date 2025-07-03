@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Copyright 2025 Ian Lewis
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
@@ -11,6 +12,10 @@
 # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 # See the License for the specific language governing permissions and
 # limitations under the License.
+=======
+# James Olal Personal Website Configuration
+# https://olalkeith.github.io/olal-james/
+>>>>>>> gh-pages
 
 plugin:
   - id: "@textlint/textlint-plugin-text"
@@ -51,7 +56,10 @@ rules:
       - "Godbolt"
       - "Graeme"
       - "Hightower"
+<<<<<<< HEAD
       - "IanLewis"
+=======
+>>>>>>> gh-pages
       - "IanMLewis"
       - "Ikeda"
       - "Ippolito"
@@ -139,8 +147,6 @@ rules:
       - "deeet"
       - "feiz"
       - "hiyosi"
-      - "ianlewis"
-      - "ianmlewis"
       - "jbking"
       - "joehewitt"
       - "kaz"

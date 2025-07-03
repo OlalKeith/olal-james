@@ -36,7 +36,11 @@ layout: default
               <ul class="post-categories">
                 {%- for tag in post.tags -%}
                   <li>
+<<<<<<< HEAD
                     <a href="/{{ post.blog }}/tag/{{ tag }}">{{ tag }}</a>
+=======
+                    <a href="{{ site.baseurl }}/{{ post.blog }}/tag/{{ tag }}">{{ tag }}</a>
+>>>>>>> gh-pages
                   </li>
                 {%- endfor -%}
               </ul>
@@ -74,7 +78,11 @@ layout: default
 
   {% comment %}
     <p class="feed-subscribe"><svg class="svg-icon orange">
+<<<<<<< HEAD
       <use xlink:href="{{ '/assets/minima-social-icons.svg#rss' | relative_url }}"></use>
+=======
+      <use xlink:href="{{ site.baseurl }}/assets/minima-social-icons.svg#rss"></use>
+>>>>>>> gh-pages
     </svg><a href="{{ "/feed.xml" | relative_url }}">Subscribe</a></p>
   {% endcomment %}
 {%- endif -%}

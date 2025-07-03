@@ -17,6 +17,7 @@
  * limitations under the License.
  */
 
+<<<<<<< HEAD
 @use "plain";
 
 {% if site.plainwhite.search %}
@@ -27,6 +28,13 @@
   @use "toggle";
   @use "dark";
 {%- endif -%}
+=======
+@import "plain";
+@import "toggle";
+@import "dark";
+
+// Trigger rebuild for GitHub Pages
+>>>>>>> gh-pages
 
 ul.pager {
     text-align: center;
@@ -34,6 +42,12 @@ ul.pager {
     li {
         list-style: none;
         display: inline-block;
+<<<<<<< HEAD
         padding: 1em;
     }
 }
+=======
+        padding: 5em;
+    }
+}
+>>>>>>> gh-pages
