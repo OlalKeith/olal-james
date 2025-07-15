@@ -1,4 +1,11 @@
 projects:
+  - image_light: vxnta.png
+    image_dark: vxnta.png
+    description: >
+      [Vxnta](https://www.usevxnta.com/) is an AI-powered field service automation platform designed specifically for pest control companies. The system helps automate scheduling, optimize routes, and accelerate business growth through intelligent field operations management. It streamlines traditionally manual processes such as appointment scheduling, technician routing, customer communication, and service tracking.
+
+      Led the development of this comprehensive field service platform using React.js, TypeScript, Python FastAPI, and Supabase. Implemented OpenAI APIs for intelligent scheduling optimization and dynamic route management, reducing operational overhead and increasing service efficiency for pest control businesses.
+      
   - image_light: gtmshome.png
     image_dark: gtmshome.png
     description: >
@@ -16,26 +23,22 @@ projects:
   - image_light: atlm.png
     image_dark: atlm.png
     description: >
-      **Above The Line Marketing** ([abovethelinemarketing.com](https://abovethelinemarketing.com/))  
-      Developed interactive web applications focused on marketing automation and client engagement. Built with modern frameworks for scalable architecture and marketing tool integrations.
+      [Above The Line Marketing](https://abovethelinemarketing.com/) developed interactive web applications focused on marketing automation and client engagement. Built with modern frameworks for scalable architecture and marketing tool integrations.
 
   - image_light: kaito.png
     image_dark: kaito.png
     description: >
-      **Kaito School** ([kaitoschool.com](https://www.kaitoschool.com/))  
-      Developed educational institution's digital platform with student management features, course administration, and communication tools to enhance learning experience and streamline school operations.
+      [Kaito School](https://www.kaitoschool.com/) developed educational institution's digital platform with student management features, course administration, and communication tools to enhance learning experience and streamline school operations.
 
   - image_light: joshansen.png
     image_dark: joshansen.png
     description: >
-      **Jos Hansen Corporate Website** ([joshansen.com](https://www.joshansen.com/))  
-      Built corporate website for Pan-African solutions provider showcasing expertise in healthcare, water engineering, surveying, and construction across multiple African countries.
+      [Jos Hansen Corporate Website](https://www.joshansen.com/) built corporate website for Pan-African solutions provider showcasing expertise in healthcare, water engineering, surveying, and construction across multiple African countries.
 
   - image_light: kvtc.png
     image_dark: kvtc.png
     description: >
-      **Koome Vocational Training School** ([kvtc.co.ke](https://kvtc.co.ke/))  
-      Developed digital platform bridging education and industry demands. Features course information, enrollment systems, and showcases vocational training programs for youth empowerment.
+      [Koome Vocational Training School](https://kvtc.co.ke/) developed digital platform bridging education and industry demands. Features course information, enrollment systems, and showcases vocational training programs for youth empowerment.
 
   - image_light: imgplaceholder.jpg
     image_dark: imgplaceholder.jpg
@@ -43,3 +46,10 @@ projects:
       AfyaPepe is a mobile app that organizes health information by connecting patients,medical facilities, laboratories, and pharmacies onto one platform.
 
       I designed and developed mobile app user interfaces for health management platform. Integrates patient data from medical facilities, laboratories, and pharmacies with focus on usability and responsiveness.
+
+  - image_light: arp.png
+    image_dark: arp.png
+    description: >
+      [EHS (Environment, Health & Safety)](https://drive.google.com/file/d/1Xl7DbV1iSbP_Zcz7IKRZ5Nuq0bSoV3bH/view?usp=sharing) is a comprehensive field engineering ERP system designed to digitize and streamline safety management processes for field engineers. The platform eliminates paper-based workflows, reduces operational waste, and significantly lowers administrative costs by providing digital tools for safety documentation, incident reporting, compliance tracking, and environmental monitoring.
+
+      Developed cross-platform mobile applications for both Android and iOS using Flutter framework.
