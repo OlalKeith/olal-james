@@ -2,9 +2,9 @@ projects:
   - image_light: vxnta.png
     image_dark: vxnta.png
     description: >
-      [Vxnta](https://www.usevxnta.com/) is an AI-powered field service automation platform designed specifically for pest control companies. The system helps automate scheduling, optimize routes, and accelerate business growth through intelligent field operations management. It streamlines traditionally manual processes such as appointment scheduling, technician routing, customer communication, and service tracking.
+      [Vxnta](https://www.usevxnta.com/) is an AI-powered field service automation platform designed specifically for pest control companies. The system helps automate scheduling, optimize routes, and accelerate business growth through intelligent field operations management.
 
-      Led the development of this comprehensive field service platform using React.js, TypeScript, Python FastAPI, and Supabase. Implemented OpenAI APIs for intelligent scheduling optimization and dynamic route management, reducing operational overhead and increasing service efficiency for pest control businesses.
+      Developed comprehensive field service platform using React.js, TypeScript, Python FastAPI, and Supabase. Implemented OpenAI APIs for intelligent scheduling optimization and dynamic route management, reducing operational overhead and increasing service efficiency for pest control businesses.
       
   - image_light: gtmshome.png
     image_dark: gtmshome.png
