@@ -22,7 +22,7 @@ I also have a background in cybersecurity and penetration testing, with experien
 
 ## Work
 
-I'm a freelance developer specializing in interactive web applications and mobile apps. I build dynamic solutions using React.js, TypeScript, and modern frameworks with emphasis on scalability and performance. I also mentor developers and collaborate with clients to bring their ideas to life.
+Currently building [Vxnta AI](https://www.usevxnta.com/). I'm a freelance developer specializing in interactive web applications and mobile apps. I build dynamic solutions using React.js, TypeScript, and modern frameworks with emphasis on scalability and performance. I also mentor developers and collaborate with clients to bring their ideas to life.
 
 Previously, as a tech lead, I developed diverse enterprise solutions including an airport lounge management system, healthcare portal, and credit risk calculation system.
 
@@ -34,8 +34,8 @@ My resume can be downloaded using the following link:
 If you want to have a chat with me you can book an appointment on my [appointment page](https://calendly.com/olal-james/smart-tech-solutions). I can help you with:
 
 - Frontend Development
-- Mobile Development  
-- System Architecture 
+- Mobile Development
+- System Architecture
 - Technical Leadership
 - Product Management (roadmapping, user stories, stakeholder alignment, agile methodology)
 
