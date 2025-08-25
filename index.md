@@ -14,15 +14,14 @@ feeds: [en, jp, til]
 
 I'm a software developer and technical leader based in Nairobi, Kenya, with experience in product management and cybersecurity.
 
-I primarily work with React, Flutter, TypeScript, and JavaScript, while exploring AI/ML and Web3 technologies. Currently learning Kubernetes for container orchestration.
+I primarily work with React, Flutter, TypeScript,JavaScript, and Python. Currently expanding my expertise in AI/ML integration, Kubernetes, API security, and modern full-stack development to deliver innovative solutions.
 
-My focus areas include scalable architectures, AI integrations, and full-stack innovation.
-
-I also have a background in cybersecurity and penetration testing, with experience in SIEM implementation and vulnerability assessments.
+I also have a background in cybersecurity, with experience in SIEM implementation, penetration testing and vulnerability assessments.
 
 ## Work
+Currently building [Vxnta AI](https://www.usevxnta.com/) - an intelligent document processing platform using OpenAI and modern web technologies.
 
-Currently building [Vxnta AI](https://www.usevxnta.com/). I'm a freelance developer specializing in interactive web applications and mobile apps. I build dynamic solutions using React.js, TypeScript, and modern frameworks with emphasis on scalability and performance. I also mentor developers and collaborate with clients to bring their ideas to life.
+I work as a technology consultant, I help organizations implement AI-integrated applications and secure development practices. I specialize in React.js, FastAPI, TypeScript, and DevSecOps, with a focus on scalable architecture and performance optimization.
 
 Previously, as a tech lead, I developed diverse enterprise solutions including an airport lounge management system, healthcare portal, and credit risk calculation system.
 
@@ -31,7 +30,7 @@ My resume can be downloaded using the following link:
 
 ## Contact
 
-If you want to have a chat with me you can book an appointment on my [appointment page](https://calendly.com/olal-james/smart-tech-solutions). I can help you with:
+If you want to have a chat with me you can book an appointment on my [appointment page](https://calendly.com/olal-james/tech-solutions). I can help you with:
 
 - Frontend Development
 - Mobile Development
