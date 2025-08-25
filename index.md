@@ -21,7 +21,7 @@ I also have a background in cybersecurity, with experience in SIEM implementatio
 ## Work
 Currently building [Vxnta AI](https://www.usevxnta.com/) - an intelligent document processing platform using OpenAI and modern web technologies.
 
-I work as a technology consultant, I help organizations implement AI-integrated applications and secure development practices. I specialize in React.js, FastAPI, TypeScript, and DevSecOps, with a focus on scalable architecture and performance optimization.
+As a technology consultant, I help organizations implement AI-integrated applications and secure development practices. I specialize in React.js, FastAPI, TypeScript, and DevSecOps, with a focus on scalable architecture and performance optimization.
 
 Previously, as a tech lead, I developed diverse enterprise solutions including an airport lounge management system, healthcare portal, and credit risk calculation system.
 
