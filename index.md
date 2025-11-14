@@ -19,7 +19,7 @@ I primarily work with React, Flutter, TypeScript,JavaScript, and Python. Current
 I also have a background in cybersecurity, with experience in SIEM implementation, penetration testing and vulnerability assessments.
 
 ## Work
-Currently building [Vxnta AI](https://www.usevxnta.com/) - an intelligent document processing platform using OpenAI and modern web technologies.
+Currently building [Exacta](https://useexacta.com/) - an intelligent document processing platform using OpenAI and modern web technologies.
 
 As a technology consultant, I help organizations implement AI-integrated applications and secure development practices. I specialize in React.js, FastAPI, TypeScript, and DevSecOps, with a focus on scalable architecture and performance optimization.
 
