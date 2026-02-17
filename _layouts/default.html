@@ -83,7 +83,7 @@
         </ul>
       </nav>
       {%- endif -%}
-      <p class="about-footer {{condensed_class}}">&copy; {{ "now" | date: "%Y" }} {{ site.plainwhite.name }}</p>
+      <p class="about-footer {{condensed_class}}">&copy; {{ site.time | date: "%Y" }} {{ site.plainwhite.name }}</p>
       {% endcapture %}
         {{ footer }}
       </section>

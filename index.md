@@ -16,14 +16,13 @@ I'm a software developer and technical leader based in Nairobi, Kenya, with expe
 
 I primarily work with React, Flutter, TypeScript,JavaScript, and Python. Currently expanding my expertise in AI/ML integration, Kubernetes, API security, and modern full-stack development to deliver innovative solutions.
 
-I also have a background in cybersecurity, with experience in SIEM implementation, penetration testing and vulnerability assessments.
+I have experience in cybersecurity including SIEM implementation, penetration testing, and vulnerability assessments.
 
 ## Work
-Currently building [Exacta](https://useexacta.com/) - an intelligent document processing platform using OpenAI and modern web technologies.
+Recently built [Exacta](https://useexacta.com/) - an intelligent document processing platform using OpenAI and modern web technologies.
 
-As a technology consultant, I help organizations implement AI-integrated applications and secure development practices. I specialize in React.js, FastAPI, TypeScript, and DevSecOps, with a focus on scalable architecture and performance optimization.
+Currently at Elewa building automation systems that connect CleanCloud, M-Pesa, and Odoo ERP using Python, FastAPI, and Google Cloud. I specialize in React.js, TypeScript, FastAPI, and DevSecOps.
 
-Previously, as a tech lead, I developed diverse enterprise solutions including an airport lounge management system, healthcare portal, and credit risk calculation system.
 
 My resume can be downloaded using the following link:
 - [Resume](https://github.com/OlalKeith/resume/releases/download/v1.0/James_Olal_Resume.pdf)
@@ -43,6 +42,6 @@ You can contact me via my email at *jkeneth.jk@gmail.com*.
 **Technical Specialties:**
 - Frontend: React.js, Next.js, TypeScript, Tailwind CSS, Ionic
 - Mobile: Flutter, Dart, Cross-platform development
-- Backend: Node.js, Express.js, Python, RESTful APIs
-- Cloud: AWS, Firebase, CI/CD with GitHub Actions
+- Backend: Node.js, Express.js, Python, FastAPI,RESTful APIs
+- Cloud: Google Cloud, AWS, Firebase, CI/CD with GitHub Actions
 - Security: Penetration testing, SIEM implementation
