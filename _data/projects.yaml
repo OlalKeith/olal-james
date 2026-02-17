@@ -2,7 +2,7 @@ projects:
   - image_light: vxnta.png
     image_dark: vxnta.png
     description: >
-      [Vxnta](https://www.usevxnta.com/) is an AI-powered field service automation platform designed specifically for pest control companies. The system helps automate scheduling, optimize routes, and accelerate business growth through intelligent field operations management.
+      [Exacta](https://useexacta.com/) is an AI-powered field service automation platform designed specifically for pest control companies. The system helps automate scheduling, optimize routes, and accelerate business growth through intelligent field operations management.
 
       Developed comprehensive field service platform using React.js, TypeScript, Python FastAPI, and Supabase. Implemented OpenAI APIs for intelligent scheduling optimization and dynamic route management, reducing operational overhead and increasing service efficiency for pest control businesses.
       

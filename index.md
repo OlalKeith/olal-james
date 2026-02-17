@@ -21,7 +21,7 @@ I have experience in cybersecurity including SIEM implementation, penetration te
 ## Work
 Recently built [Exacta](https://useexacta.com/) - an intelligent document processing platform using OpenAI and modern web technologies.
 
-Currently at Elewa building automation systems that connect CleanCloud, M-Pesa, and Odoo ERP using Python, FastAPI, and Google Cloud. I specialize in React.js, TypeScript, FastAPI, and DevSecOps.
+Currently at Elewa building automation systems that connect CleanCloud, M-Pesa, and Odoo ERP using Python, FastAPI, and Google Cloud. I specialize in React.js, TypeScript and FastAPI
 
 
 My resume can be downloaded using the following link:
