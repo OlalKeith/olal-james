@@ -19,9 +19,9 @@ I primarily work with React, Flutter, TypeScript,JavaScript, and Python. Current
 I have experience in cybersecurity including SIEM implementation, penetration testing, and vulnerability assessments.
 
 ## Work
-Currently at [Elewa](https://elewa.ke/) building automation systems that connect CleanCloud, M-Pesa, and Odoo ERP using Python, FastAPI, and Google Cloud. I specialize in React.js, TypeScript and FastAPI
+Currently at [Elewa](https://elewa.ke/) building automation systems that connect Laundry Saas [(Cleancloud)](https://cleancloudapp.com/), M-Pesa, and Odoo ERP using Python, FastAPI, and Google Cloud. I specialize in React.js, TypeScript and FastAPI
 
-Built an intelligent document processing platform using OpenAI and modern web technologies at[Exacta](https://useexacta.com/)
+Built an intelligent document processing platform using OpenAI and modern web technologies at [Exacta](https://useexacta.com/)
 
 
 My resume can be downloaded using the following link:

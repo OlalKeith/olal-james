@@ -30,10 +30,10 @@ projects:
     description: >
       [Kaito School](https://www.kaitoschool.com/) developed educational institution's digital platform with student management features, course administration, and communication tools to enhance learning experience and streamline school operations.
 
-  - image_light: joshansen.png
-    image_dark: joshansen.png
-    description: >
-      [Jos Hansen Corporate Website](https://www.joshansen.com/) built corporate website for Pan-African solutions provider showcasing expertise in healthcare, water engineering, surveying, and construction across multiple African countries.
+  # - image_light: joshansen.png
+  #   image_dark: joshansen.png
+  #   description: >
+  #     [Jos Hansen Corporate Website](https://www.joshansen.com/) built corporate website for Pan-African solutions provider showcasing expertise in healthcare, water engineering, surveying, and construction across multiple African countries.
 
   - image_light: kvtc.png
     image_dark: kvtc.png
@@ -53,3 +53,19 @@ projects:
       [EHS (Environment, Health & Safety)](https://drive.google.com/file/d/1Xl7DbV1iSbP_Zcz7IKRZ5Nuq0bSoV3bH/view?usp=sharing) is a comprehensive field engineering ERP system designed to digitize and streamline safety management processes for field engineers. The platform eliminates paper-based workflows, reduces operational waste, and significantly lowers administrative costs by providing digital tools for safety documentation, incident reporting, compliance tracking, and environmental monitoring.
 
       Developed cross-platform mobile applications for both Android and iOS using Flutter framework.
+
+
+personal_projects:
+  - image_light: aura_home.png
+    image_dark: aura_home.png
+    description: >
+      [Aura](https://aura-umber-seven.vercel.app/) is a vibe-based restaurant and bar discovery PWA for Nairobi locals. The platform filters venues by ambience (intimate, energetic, chill, etc.), pricing, proximity, and social context, solving the "where should we go?" problem with real-time signals instead of stale reviews.
+
+      Built with React, Tailwind CSS, and Supabase. Deployed to Vercel.
+
+  - image_light: foleni_home.png
+    image_dark: foleni_home.png
+    description: >
+      [Foleni](https://foleni.co.ke/) is a virtual queue management PWA for clinics, government offices, and service businesses across East Africa. It replaces physical waiting rooms with a live digital queue — patients join via QR code, track their position in real time, and get notified when their turn is near.
+
+      Built with Next.js, NestJS, PostgreSQL, and Socket.io. Deployed on Vercel and Railway with real-time WebSocket updates, SMS notifications via Africa's Talking, and a multi-tenant architecture supporting multiple branches per business.      
