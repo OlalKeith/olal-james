@@ -30,15 +30,15 @@ projects:
     description: >
       [Kaito School](https://www.kaitoschool.com/) developed educational institution's digital platform with student management features, course administration, and communication tools to enhance learning experience and streamline school operations.
 
-  # - image_light: joshansen.png
-  #   image_dark: joshansen.png
-  #   description: >
-  #     [Jos Hansen Corporate Website](https://www.joshansen.com/) built corporate website for Pan-African solutions provider showcasing expertise in healthcare, water engineering, surveying, and construction across multiple African countries.
-
-  - image_light: kvtc.png
-    image_dark: kvtc.png
+  - image_light: joshansen.png
+    image_dark: joshansen.png
     description: >
-      [Koome Vocational Training School](https://kvtc.co.ke/) developed digital platform bridging education and industry demands. Features course information, enrollment systems, and showcases vocational training programs for youth empowerment.
+      [Jos Hansen Corporate Website](https://www.joshansen.com/) built corporate website for Pan-African solutions provider showcasing expertise in healthcare, water engineering, surveying, and construction across multiple African countries.
+
+  # - image_light: kvtc.png
+  #   image_dark: kvtc.png
+  #   description: >
+  #     [Koome Vocational Training School](https://kvtc.co.ke/) developed digital platform bridging education and industry demands. Features course information, enrollment systems, and showcases vocational training programs for youth empowerment.
 
   - image_light: imgplaceholder.jpg
     image_dark: imgplaceholder.jpg
