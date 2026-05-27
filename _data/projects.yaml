@@ -66,6 +66,6 @@ personal_projects:
   - image_light: foleni_home.png
     image_dark: foleni_home.png
     description: >
-      [Foleni](https://foleni.co.ke/) is a virtual queue management PWA for clinics, government offices, and service businesses across East Africa. It replaces physical waiting rooms with a live digital queue — patients join via QR code, track their position in real time, and get notified when their turn is near.
+      [Foleni](https://foleni-sable.vercel.app/) is a virtual queue management PWA for clinics, government offices, and service businesses across East Africa. It replaces physical waiting rooms with a live digital queue — patients join via QR code, track their position in real time, and get notified when their turn is near.
 
       Built with Next.js, NestJS, PostgreSQL, and Socket.io. Deployed on Vercel and Railway with real-time WebSocket updates, SMS notifications via Africa's Talking, and a multi-tenant architecture supporting multiple branches per business.      
