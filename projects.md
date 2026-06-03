@@ -20,9 +20,9 @@ These are some of the projects I have worked on.
 
 ---
 
-## Personal Projects
+## Personal Projects <small style="font-size: 0.5em; font-weight: normal; color: orange;"> - In Progress</small>
 
-These are projects I built independently.
+These are projects I am building independently.
 
 {% for project in site.data.projects.personal_projects %}
 
