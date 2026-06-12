@@ -12,16 +12,14 @@ feeds: [en, jp, til]
 
 # Hi, I'm Olal 👋🏿
 
-I'm a software developer and technical leader based in Nairobi, Kenya, with experience in product management.
+I build software products and business systems that help organizations streamline operations, automate workflows, and connect critical services. My experience spans web, mobile, backend development, ERP systems, and payment integrations including M-Pesa and Stripe.
 
-I primarily work with React, Flutter, TypeScript,JavaScript, and Python. Currently deepening my expertise in AI/ML integration, cloud-native development, and application security.
-
-I have experience in cybersecurity including SIEM implementation, penetration testing, and vulnerability assessments.
+Currently working across engineering and product, with a growing focus on DevSecOps and Application/API security.
 
 ## Work
-Currently at [Elewa](https://elewa.ke/) building automation systems that connect Laundry Saas [(Cleancloud)](https://cleancloudapp.com/), M-Pesa, and Odoo ERP using Python, FastAPI, and Google Cloud. I specialize in React.js, TypeScript and FastAPI
+Currently at [Elewa](https://elewa.ke/) building an automation system connecting a Saas platform [(Cleancloud)](https://cleancloudapp.com/), M-Pesa, and Odoo ERP using Python, FastAPI, and Google Cloud.
 
-Built an intelligent document processing platform using OpenAI and modern web technologies at [Exacta](https://useexacta.com/)
+Previously at [Exacta](https://useexacta.com/) where I built an AI document processing platform using OpenAI APIs, FastAPI, and React.js.
 
 
 My resume can be downloaded using the following link:

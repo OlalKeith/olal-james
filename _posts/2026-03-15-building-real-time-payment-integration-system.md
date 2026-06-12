@@ -8,12 +8,12 @@ tags: fastapi mpesa webhooks gcp integrations odoo xmlrpc
 render_with_liquid: false
 ---
 
-I recently shipped a production integration connecting CleanCloud (POS), Safaricom M-Pesa, and Odoo ERP for a laundry business in Kenya. Real payments, real edge cases, real consequences.
+I recently worked on an integration connecting CleanCloud, Safaricom M-Pesa, and Odoo ERP for a laundry business in Kenya.
 
-The biggest mental shift was webhooks. Instead of polling for data, the payment gateway tells you when something happens. Pair that with Cloud Run's serverless model and your service only exists when it's needed. Elegant in theory, humbling in production.
+The biggest lesson was that the actual payment flow is usually the easy part. Most of the work goes into handling failures and keeping systems in sync when things don't go as planned.
 
-What no tutorial covers: webhooks fail. Services redeploy mid-request. Callbacks time out. M-Pesa sandbox and production behave differently. I ended up spending more time on reconciliation logic, idempotency, and manual retry endpoints than on the happy path itself. That ratio (20% happy path, 80% edge case handling) is probably the most honest thing I can say about integration work.
+Webhooks can fail, requests can timeout, services can restart, and external systems don't always behave the same way in testing and production. I spent a lot of time building reconciliation processes, duplicate payment protection, retry mechanisms, and audit logs to make sure transactions could be traced and recovered when needed.
 
-Odoo's external API uses XML-RPC, which felt like stepping back in time when everything else in the stack was REST and JSON. Python's built-in `xmlrpc.client` handles it fine, but you have to be deliberate about how you structure calls, handle faults, and map Odoo's data model to your own. It works, it's stable, and once you stop fighting it the mental overhead drops significantly.
+Another interesting part of the project was working with Odoo's XML-RPC API. Most modern integrations use REST and JSON, so it took some time to understand Odoo's approach and map data between systems correctly.
 
-The other lesson: log everything from day one. When you're debugging across three APIs and two databases at 2 AM, your PostgreSQL audit trail is the only thing keeping you sane.
+The most useful lesson was simple: log everything from the beginning. When you're trying to track a payment across multiple systems, good logs and audit trails save a lot of time and frustration.
