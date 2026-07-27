@@ -12,14 +12,14 @@ feeds: [en, jp, til]
 
 # Hi, I'm Olal 👋🏿
 
-I build software products and business systems that help organizations streamline operations, automate workflows, and connect critical services. My experience spans web, mobile, backend development, ERP systems, and payment integrations including M-Pesa and Stripe.
-
-Currently working across engineering and product, with a growing focus on DevSecOps and Application/API security.
+I build software products and business systems that help organizations streamline operations, automate workflows, and connect critical services. My experience spans web, mobile, backend development, ERP systems, and payment integrations. I'm particularly interested in building reliable systems that balance product needs with secure, maintainable engineering.
 
 ## Work
-Currently at [Elewa](https://elewa.ke/) building an automation system connecting a Saas platform [(Cleancloud)](https://cleancloudapp.com/), M-Pesa, and Odoo ERP using Python, FastAPI, and Google Cloud.
+Currently working independently, designing and building software products from idea to launch, including product discovery, requirements, prototyping, and full-stack implementation.
 
-Previously at [Exacta](https://useexacta.com/) where I built an AI document processing platform using OpenAI APIs, FastAPI, and React.js.
+Built an automation system connecting the SaaS platform [CleanCloud](https://cleancloudapp.com/), M-Pesa, and Odoo ERP using Python, FastAPI, and Google Cloud during a contract with [Elewa](https://elewa.ke/).
+
+Previously, at [Exacta](https://useexacta.com/), where I built an AI document processing platform using OpenAI APIs, FastAPI, and React.js.
 
 
 My resume can be downloaded using the following link:
